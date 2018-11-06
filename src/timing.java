@@ -10,7 +10,8 @@ public class timing {
 
 //        last(sample);
 //        reverse(sample);
-        shuffle(sample);
+//        shuffle(sample);
+        sortarr(sample);
         long endTime = System.nanoTime();
 
         long duration = (endTime - startTime);
@@ -36,12 +37,17 @@ public class timing {
     }
 
     public static int[] reverse (int[] arr) {
-        Collections.reverse(Arrays.asList(arr));;
+        Collections.reverse(Arrays.asList(arr));
         return arr;
     }
 
     public static int[] shuffle (int[] arr) {
-        Collections.shuffle(Arrays.asList(arr));;
+        Collections.shuffle(Arrays.asList(arr));
+        return arr;
+    }
+
+    public static int[] sortarr (int[] arr) {
+        Arrays.sort(arr);
         return arr;
     }
 
