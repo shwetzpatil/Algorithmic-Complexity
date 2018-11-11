@@ -4,6 +4,7 @@ public class MyShuffle extends Timing {
 
     public static void shuffleArray(int[] array)
     {
+//        System.out.println("Initial array"+array);
         int index, temp;
         Random random = new Random();
         for (int i = array.length - 1; i > 0; i--)
@@ -13,5 +14,7 @@ public class MyShuffle extends Timing {
             array[index] = array[i];
             array[i] = temp;
         }
+
+//        System.out.println("shuffled array"+array);
     }
 }

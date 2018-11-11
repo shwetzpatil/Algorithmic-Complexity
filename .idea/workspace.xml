@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca83bd9e-a641-46a8-90ae-21015649d257" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithmic-Complexity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmic-Complexity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic-Complexity/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithmic-Complexity/timing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyShuffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Timing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Timing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyShuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyShuffle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Timing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Timing.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,26 +28,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="11" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="11" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="java" value="1098" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="2718" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1098" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="2718" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -64,24 +58,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/Algorithmic-Complexity.iml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Timing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="105">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#351#357#0" expanded="true" />
+                <element signature="e#1517#1526#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Timing.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MechaCoachPairing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="e#234#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BuiltinMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#233#242#0" expanded="true" />
-                <element signature="e#344#350#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,8 +110,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyShuffle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CohortGrouping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="e#156#164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +165,11 @@
         <option value="$PROJECT_DIR$/src/test/java/timingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Myshuffle.java" />
         <option value="$PROJECT_DIR$/src/main/java/timing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mechaCoachPairing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CohortGrouping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MechaCoachPairing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyShuffle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuiltinMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/Timing.java" />
       </list>
     </option>
@@ -179,11 +207,6 @@
             <path>
               <item name="Algorithmic-Complexity" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithmic-Complexity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithmic-Complexity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithmic-Complexity" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithmic-Complexity" type="b2602c69:ProjectViewProjectNode" />
@@ -229,10 +252,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541520796872" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541965329666" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -269,6 +293,8 @@
     <configuration name="Timing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Timing" />
       <module name="Algorithmic-Complexity" />
+      <option name="PROGRAM_PARAMETERS" value="-Djava.compiler=NONE" />
+      <option name="VM_PARAMETERS" value="-Djava.compiler=NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,16 +324,15 @@
       <workItem from="1541513789622" duration="201000" />
       <workItem from="1541514017157" duration="210000" />
       <workItem from="1541514230885" duration="10000" />
-      <workItem from="1541514245319" duration="5040000" />
+      <workItem from="1541514245319" duration="20022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15530000" />
+    <option name="totallyTimeSpent" value="30512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1439" height="833" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22047244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,6 +405,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CohortGrouping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#156#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MechaCoachPairing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#234#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyShuffle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyReverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -387,21 +439,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyShuffle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuiltinMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Timing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#233#242#0" expanded="true" />
-            <element signature="e#344#350#0" expanded="true" />
+            <element signature="e#351#357#0" expanded="true" />
+            <element signature="e#1517#1526#0" expanded="true" />
           </folding>
         </state>
       </provider>

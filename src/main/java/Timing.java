@@ -1,70 +1,74 @@
+import java.time.Duration;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
+
 
 public class Timing {
     public static void main(String[] args) {
         int arraySize = 10000;
-        List<Integer> inputArray = new ArrayList<Integer>();
-        List<Long> durationArray= new ArrayList<Long>();
 
-        for(int i=100; i < arraySize; i += 100){
+        for(int i=1000; i <= arraySize; i += 1000){
 
-            int[] sample = sampleArray(i);
-            long startTime = System.nanoTime();
+            List<Integer> sample = sampleArray(i);
 
-//            last(sample);
-//            reverse(sample);
-//            shuffle(sample);
-//            sort(sample);
-//            MyShuffle.shuffleArray(sample);
+            List<Long> averageArray = new ArrayList<Long>();
+            int repetitions = 100;
+//            System.out.println(repetitions);
+                for (int j = 0; j< repetitions; j++) {
 
-            long endTime = System.nanoTime();
+                    //shuffle before sorting
+                    BuiltinMethods.shuffle(sample);
+                    long startTime = System.nanoTime();
 
-            long duration = (endTime - startTime);
+//                        BuiltinMethods.last(sample);
+//                        BuiltinMethods.reverse(sample);
+//                        BuiltinMethods.shuffle(sample);
+                        BuiltinMethods.sort(sample);
+//                        MyShuffle.shuffleArray(sample);
+//                        MyReverse.reverseArray(sample);
+//                        CohortGrouping.cohortList();
 
-            inputArray.add(i);
-            durationArray.add(duration);
+                    long endTime = System.nanoTime();
 
-            System.out.println( i + "\t" + duration);
+                    long duration = Duration.ofNanos(endTime - startTime).toNanos();
+//                    long duration = endTime - startTime;
 
-
+                    averageArray.add(duration);
+                }
+//                System.out.println(averageArray);
+                long averageResult = calculateAvg(averageArray);
+            System.out.println(sample.size() + "\t" + averageResult);
         }
-        System.out.println("Inputs" + inputArray );
-        System.out.println("Durations" + durationArray);
+
 
     }
 
-    public static int[] sampleArray (int arrayLength) {
-        int[] sampleArr = new int[arrayLength];
+    public static List<Integer> sampleArray (int arrayLength) {
+        List<Integer> sampleArr = new ArrayList<Integer>();
 
-        for(int i = 0; i < sampleArr.length; i++) {
-            sampleArr[i] = (int)(Math.random()*20 + 1);
+        for(int i = 0; i < arrayLength; i++) {
+            sampleArr.add((int)(Math.random()*20 + 1));
         }
 //        System.out.println("Numbers Generated: " + Arrays.toString(sampleArr));
         return sampleArr;
     }
 
+    public static long calculateAvg (List<Long> arr) {
+//        if(arr.size() == 1){
+//            return arr.get(0);
+//        }
 
-    public static int last (int[] arr) {
-        int lastNum = arr[arr.length-1];
-        return lastNum;
-    }
+        long sum = 0;
+//        System.out.println(arr);
+        //removing 0th element since it takes extra time to load required libs for attempt 1
+        for(int i = 1; i < arr.size(); i++) {
+            sum += arr.get(i);
+        }
+//        System.out.println(sum);
 
-    public static void reverse (int[] arr) {
-        Collections.reverse(Arrays.asList(arr));
-//        return arr;
-    }
+        long avgNum = sum/(arr.size() - 1);
 
-    public static int[] shuffle (int[] arr) {
-        Collections.shuffle(Arrays.asList(arr));
-        return arr;
-    }
-
-    public static int[] sort (int[] arr) {
-        Arrays.sort(arr);
-        return arr;
+        return avgNum;
     }
 
 }
